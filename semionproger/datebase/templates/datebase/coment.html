@@ -1,0 +1,24 @@
+{% extends 'main/master.html' %}
+
+{% block title %}
+Услуги
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1 align="center">Отзывы</h1>
+                <form class="buton" action = "{% url 'add_coment' %}">
+            <button class = "btn btn-outline-danger"  ><i class="fa-solid fa-address-card" style="color: black;"></i>Оставить отзыв</button>
+            </form>
+        {% for m in  coment %}
+            <div class="alert alert-warning">
+                <h3>{{m.service}}</h3>
+                <p>{{m.name}}</p>
+                <p>{{m.comm}}</p>
+                <p>{{m.prise}}</p>
+
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

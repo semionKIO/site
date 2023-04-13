@@ -1,0 +1,22 @@
+{% extends 'main/master.html' %}
+
+{% block title %}
+ {{title}}
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{title}}</h1>
+            <p >🌟ЛОГОПЕД<br>
+🌟ПСИХОЛОГ<br>
+🌟НЕЙРОПСИХОЛОГ<br>
+Занятия с детьми от 2-х до 12-ти лет<br>
+ОВЗ аутизм ЗПР ЗРР и другие<br>
+                <br>
+               <form action = "{% url 'abaut' %}">
+                    <button class = "btn btn-outline-danger" ><i class="fa-solid fa-address-card" style="color: black;"></i>На страницу про нас </button></p>
+                </form>
+    </div>
+
+
+{% endblock %}

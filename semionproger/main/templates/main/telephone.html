@@ -1,0 +1,18 @@
+{% extends 'main/master.html' %}
+
+{% block title %}
+  Контакты
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Контакты</h1>
+            <p > +7 (924) 305-96-96
+                <br><a href = "https://vk.com/timoshka_centr"><i class="fa-brands fa-vk"></i></a>
+                <form action = "{% url 'abaut' %}">
+                    <button class = "btn btn-outline-danger" ><i class="fa-solid fa-address-card" style="color: black;"></i>На страницу про нас </button></p>
+                </form>
+    </div>
+
+
+{% endblock %}

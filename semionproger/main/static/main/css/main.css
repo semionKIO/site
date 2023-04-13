@@ -1,0 +1,87 @@
+body{
+background : #ebebeb;
+height: 100%;}
+aside{
+
+    float:left;
+    background : #FFA07A;
+    width: 16%;
+    padding: 0% 2% 3% ;
+    height: 100em;
+    color: #fff;
+    border-right: 5px solid #FFB6C1;}
+
+    aside img{
+
+     width: 100%;
+     float: center;
+     text-align: center;}
+
+    aside .logo{
+    font-size: 32px;
+    text-align: center;
+    font-weight:bold;}
+
+    aside h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px}
+
+    aside ul{
+    list-style: none}
+
+    aside ul li{
+    color:#FF1493;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s }
+
+    aside ul li:hover, aside ul a:hover{
+    color: #FF4500;
+    text-decoration: none; color: navy;
+    transform: scale(1.05)
+    }
+
+    aside .link {
+  text-decoration: none;
+  font-family: Arial Black;
+  font-size: 25px;
+}
+aside .icon{
+font-size: 40px;
+float: none;
+
+}
+
+main .features{
+float: left;
+color: #DDA0DD;
+margin-top: 100px;
+text-align: center;
+width: 75%;
+}
+main .features h1{
+color: red;
+font-size: 50px;}
+main .features p{
+font-size: 20px;
+margin: 20px;}
+
+main .features btn btn-outline-danger{
+
+margin-top: 100px;}
+
+.alert-warning{
+    float: center;
+    clear: both;
+    width: 400px;
+    margin: 20px 36%;
+    text-align: center;}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+    }
+
+

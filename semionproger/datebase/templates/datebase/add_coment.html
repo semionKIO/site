@@ -1,0 +1,22 @@
+{% extends 'main/master.html' %}
+
+{% block title %}
+Услуги
+{% endblock %}
+        {{ location_list }}
+{% block content %}
+    <div class="features">
+        <h1>Спасибо за ваш отзыв!!</h1>
+        <form method = "POST" >
+            {% csrf_token %}
+            {{form.service}}<br>
+            {{ form.name }}<br>
+            {{ form.comm }}<br>
+            <button class="btn btn-success" type="submit">Добавить отзыв</button>
+            <span>{{error}}</span>
+        </form>
+
+    </div>
+
+
+{% endblock %}
